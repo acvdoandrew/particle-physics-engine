@@ -4,19 +4,14 @@
 #include <string>
 #include <vector>
 
-// =================================================================
-// DIAGNOSTIC FLAGS - CHANGE THESE TO RUN EXPERIMENTS
-// =================================================================
 const bool PHYSICS_ENABLED = true;
 const bool RENDERING_ENABLED = true;
-// =================================================================
 
 int main() {
 
   // Window properties as constants
   const sf::Vector2u windowSize({800, 600});
-  const uint32_t maxParticles = 5000; // Let's test with a high number
-
+  const uint32_t maxParticles = 5000;
   // Create main window
   sf::RenderWindow window(sf::VideoMode({windowSize.x, windowSize.y}),
                           "Particle Engine");
