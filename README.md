@@ -1,6 +1,6 @@
 # C++ Particle Physics Engine
 
-A high-performance 2D particle simulation built from scratch in modern C++. This project serves as a hands-on journey into computational physics, performance optimization, and low-level systems programming, with the ultimate goal of GPU acceleration via CUDA.
+A high-performance 2D particle simulation built from scratch in modern C++. This project serves as a hands-on journey into computational physics, performance optimization, and low-level systems programming.
 
 ---
 
